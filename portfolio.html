@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css", href="assets/css/reset.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 		</h1>
 
 		<nav>
-			About | Portfolio | Contact
+			<a href="index.html">About</a> | Portfolio | <a href="contact.html">Contact</a>
 		</nav>
 	</header>
 	<div class="container">
@@ -23,11 +23,30 @@
 
 			<hr>
 
-			<img class="projectImages" src="assets/images/projectone.jpg">
-			<img class="projectImages" src="assets/images/projecttwo.jpg">
-			<img class="projectImages" src="assets/images/projectthree.jpg">
-			<img class="projectImages" src="assets/images/projectfour.jpg">
-			<img class="projectImages" src="assets/images/projectfive.jpg">
+			<div>
+				<img class="imagesLeft" src="assets/images/projectone.jpg">
+				<div id="projectOne">Project One</div>
+			</div>
+
+			<div>
+				<img class="imagesRight" src="assets/images/projecttwo.jpg">
+				<div id="projectTwo">Project Two</div>
+			</div>
+
+			<div>
+				<img class="imagesLeft" src="assets/images/projectthree.jpg">
+				<div id="projectThree">Project Three</div>
+			</div>
+
+			<div>
+				<img class="imagesRight" src="assets/images/projectfour.jpg">
+				<div id="projectFour">Project Four</div>
+			</div>
+
+			<div>
+				<img class="imagesLeft" src="assets/images/projectfive.jpg">
+				<div id="projectFive">Project Five</div>
+			</div>
 
 		</article>
 	</div>
@@ -39,9 +58,15 @@
 
 		<hr>
 
-		<img id="githubLogo" src="assets/images/githublogo.png">
-		<img id="linkedinLogo" src="assets/images/linkedinlogo.png">
-		<img id="stackoverflowLogo" src="assets/images/stackoverflowlogo.png">
+		<a href="https://github.io/clarkwmcd">
+			<img id="githubLogo" src="assets/images/githublogo.png">
+		</a>
+		<a href="https://www.linkedin.com/in/clark-mcdermith-20388569/">
+			<img id="linkedinLogo" src="assets/images/linkedinlogo.png">
+		</a>
+		<a href="https://stackoverflow.com/users/8723357/clark-mcdermith">
+			<img id="stackoverflowLogo" src="assets/images/stackoverflowlogo.png">
+		</a>
 	</aside>
 
 
